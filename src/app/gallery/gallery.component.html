@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row text-center m-3">
+        <div class="col-3">
+            <h2>Filter</h2>
+        </div>
+        <div class="col-9">
+            <h1>The PicsWall</h1>
+        </div>
+    </div>
+
+    <!--gallery and filter -->
+    <div class="row mt-4">
+        <div class="col-3 ">
+            <div class="text-center">
+                <button class=" btn mb-3 w-100" (click)="getAllProducts()">all</button>
+                <br>
+                <button  class=" btn mb-3 w-100"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">category</button>
+                <div class="collapse" id="collapseExample">
+                    <div class=" row card card-body">
+                        @for(product of category; track product.id){
+                            <div class="col">
+                                <button class="btn mb-3" (click)="filterProducts('category',product)">{{product}}</button>
+                            </div>
+                            
+                          }
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="row">
+                @for (product of products ;track product.id){
+                  <div class="col-md-4 mb-4">
+                    <div class="card card-show h-100" (click)="viewImage(product.id)">
+                      <img
+                        [src]="product.imageUrl"
+                        class="card-img-top"
+                        alt="Product Image"
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title">{{ product.title }}</h5>
+                        <p class="card-text">{{ product.category }}</p>
+                      </div>
+                    </div>
+                  </div>
+                }
+              </div>
+        </div>
+    </div>
+
+</div>

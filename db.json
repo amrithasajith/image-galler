@@ -1,0 +1,245 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Sunset Landscape",
+        "description": "A beautiful sunset view over the hills.",
+        "imageUrl": "https://picsum.photos/id/1018/400/300",
+        "category": "Nature",
+        "price": 120.0
+      },
+      {
+        "id": 2,
+        "title": "Mountain Lake",
+        "description": "Peaceful lake surrounded by mountains.",
+        "imageUrl": "https://picsum.photos/id/1015/400/300",
+        "category": "Nature",
+        "price": 130.0
+      },
+      {
+        "id": 3,
+        "title": "City Lights",
+        "description": "Urban skyline glowing at night.",
+        "imageUrl": "https://picsum.photos/id/1011/400/300",
+        "category": "City",
+        "price": 110.0
+      },
+      {
+        "id": 4,
+        "title": "Desert Adventure",
+        "description": "Sandy dunes under a clear sky.",
+        "imageUrl": "https://picsum.photos/id/1003/400/300",
+        "category": "Adventure",
+        "price": 90.0
+      },
+      {
+        "id": 5,
+        "title": "Forest Pathway",
+        "description": "A calm path in a dense forest.",
+        "imageUrl": "https://picsum.photos/id/1005/400/300",
+        "category": "Nature",
+        "price": 100.0
+      },
+      {
+        "id": 6,
+        "title": "Ocean Breeze",
+        "description": "Waves crashing on the shore.",
+        "imageUrl": "https://picsum.photos/id/1016/400/300",
+        "category": "Beach",
+        "price": 115.0
+      },
+      {
+        "id": 7,
+        "title": "Snowy Mountains",
+        "description": "Peaks covered in white snow.",
+        "imageUrl": "https://picsum.photos/id/1022/400/300",
+        "category": "Winter",
+        "price": 150.0
+      },
+      {
+        "id": 8,
+        "title": "Modern Building",
+        "description": "Architectural marvel in a business hub.",
+        "imageUrl": "https://picsum.photos/id/1008/400/300",
+        "category": "Architecture",
+        "price": 95.0
+      },
+      {
+        "id": 9,
+        "title": "Rustic Village",
+        "description": "Peaceful countryside with old cottages.",
+        "imageUrl": "https://picsum.photos/id/1021/400/300",
+        "category": "Village",
+        "price": 85.0
+      },
+      {
+        "id": 10,
+        "title": "Cherry Blossom",
+        "description": "Spring bloom with cherry trees.",
+        "imageUrl": "https://picsum.photos/id/1014/400/300",
+        "category": "Nature",
+        "price": 125.0
+      },
+      {
+        "id": 11,
+        "title": "Rainy Street",
+        "description": "Raindrops on city streets at night.",
+        "imageUrl": "https://picsum.photos/id/1020/400/300",
+        "category": "City",
+        "price": 105.0
+      },
+      {
+        "id": 12,
+        "title": "Canyon View",
+        "description": "Deep canyon carved by nature.",
+        "imageUrl": "https://picsum.photos/id/1032/400/300",
+        "category": "Adventure",
+        "price": 140.0
+      },
+      {
+        "id": 13,
+        "title": "Green Fields",
+        "description": "Endless green plains and farms.",
+        "imageUrl": "https://picsum.photos/id/1033/400/300",
+        "category": "Village",
+        "price": 88.0
+      },
+      {
+        "id": 14,
+        "title": "Coastal Cliff",
+        "description": "Sharp cliffs overlooking the ocean.",
+        "imageUrl": "https://picsum.photos/id/1035/400/300",
+        "category": "Beach",
+        "price": 132.0
+      },
+      {
+        "id": 15,
+        "title": "Urban Tunnel",
+        "description": "Light at the end of a tunnel in a city.",
+        "imageUrl": "https://picsum.photos/id/1041/400/300",
+        "category": "City",
+        "price": 102.0
+      },
+      {
+        "id": 16,
+        "title": "Bridge Over Water",
+        "description": "Elegant bridge at sunset.",
+        "imageUrl": "https://picsum.photos/id/1043/400/300",
+        "category": "Architecture",
+        "price": 127.0
+      },
+      {
+        "id": 17,
+        "title": "Flower Field",
+        "description": "A field full of wild colorful flowers.",
+        "imageUrl": "https://picsum.photos/id/1044/400/300",
+        "category": "Nature",
+        "price": 118.0
+      },
+      {
+        "id": 18,
+        "title": "Misty Forest",
+        "description": "Dense woods shrouded in fog.",
+        "imageUrl": "https://picsum.photos/id/1045/400/300",
+        "category": "Winter",
+        "price": 144.0
+      },
+      {
+        "id": 19,
+        "title": "Hot Air Balloons",
+        "description": "Colorful balloons over mountains.",
+        "imageUrl": "https://picsum.photos/id/1050/400/300",
+        "category": "Adventure",
+        "price": 160.0
+      },
+      {
+        "id": 20,
+        "title": "Sunrise Beach",
+        "description": "Morning light over ocean waves.",
+        "imageUrl": "https://picsum.photos/id/1060/400/300",
+        "category": "Beach",
+        "price": 122.0
+      },
+      {
+        "id": 21,
+        "title": "Quiet Alley",
+        "description": "Narrow alley in a quaint town.",
+        "imageUrl": "https://picsum.photos/id/1065/400/300",
+        "category": "Village",
+        "price": 89.0
+      },
+      {
+        "id": 22,
+        "title": "Frozen Lake",
+        "description": "Icy water surrounded by pine trees.",
+        "imageUrl": "https://picsum.photos/id/1070/400/300",
+        "category": "Winter",
+        "price": 135.0
+      },
+      {
+        "id": 23,
+        "title": "Skyline View",
+        "description": "Panoramic view of a city skyline.",
+        "imageUrl": "https://picsum.photos/id/1074/400/300",
+        "category": "City",
+        "price": 108.0
+      },
+      {
+        "id": 24,
+        "title": "Waterfall",
+        "description": "Cascading waterfall in the forest.",
+        "imageUrl": "https://picsum.photos/id/1080/400/300",
+        "category": "Nature",
+        "price": 155.0
+      },
+      {
+        "id": 25,
+        "title": "Rocky Shore",
+        "description": "Waves hitting rocky beach.",
+        "imageUrl": "https://picsum.photos/id/1084/400/300",
+        "category": "Beach",
+        "price": 126.0
+      },
+      {
+        "id": 26,
+        "title": "Railway Tracks",
+        "description": "Railroad leading into the distance.",
+        "imageUrl": "https://images.unsplash.com/photo-1501704163333-86d3832cd4ea?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFpbHJvYWQlMjB0cmFja3xlbnwwfHwwfHx8MA%3D%3D&ixlib=rb-4.0.3&q=60&w=3000",
+        "category": "Adventure",
+        "price": 91.0
+      },
+      {
+        "id": 27,
+        "title": "Old Church",
+        "description": "Historic church in a rural village.",
+        "imageUrl": "https://picsum.photos/id/1089/400/300",
+        "category": "Architecture",
+        "price": 99.0
+      },
+      {
+        "id": 28,
+        "title": "River Crossing",
+        "description": "Shallow river with stepping stones.",
+        "imageUrl": "https://picsum.photos/id/1090/400/300",
+        "category": "Village",
+        "price": 86.0
+      },
+      {
+        "id": 29,
+        "title": "Hiking Trail",
+        "description": "Dirt path through dense wilderness.",
+        "imageUrl": "https://picsum.photos/id/1095/400/300",
+        "category": "Adventure",
+        "price": 123.0
+      },
+      {
+        "id": 30,
+        "title": "Night Sky",
+        "description": "Starry night with visible Milky Way.",
+        "imageUrl": "https://picsum.photos/id/1100/400/300",
+        "category": "Nature",
+        "price": 142.0
+      }
+    ]
+  }
+  

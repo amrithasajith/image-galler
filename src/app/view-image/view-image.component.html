@@ -1,0 +1,44 @@
+<div class="container rounded shadow mt-5 bg-light" style="background-color: #FFF8F0; " >
+    <div class="row align-items-center">
+      <!-- Text Section -->
+      <div class="col-md-6 p-5">
+        <h1 class="text-dark">{{ image.title }}</h1>
+        <br>
+        <p class="text-dark">{{image.description}}</p>
+        <br>
+        <p>Category :{{image.category}}</p>
+        <button class="btn" >${{image.price}}</button>
+      </div>
+  
+      <!-- Image Section -->
+      <div class=" col-md-6 p-5 text-center">
+        <img
+    [src]="image.imageUrl"
+    class="card-img-top"
+    alt="Product Image"
+         />
+  
+       
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- <div class="container">
+    <div class="row">
+
+     <img
+    [src]="image.imageUrl"
+    class="card-img-top"
+    alt="Product Image"
+  />
+  
+    <h5 class="card-title">{{ image.title }}</h5>
+    <p class="card-text">{{ image.category }}</p>
+</div>
+  </div>
+         -->
+          
+              

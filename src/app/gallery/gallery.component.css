@@ -1,0 +1,31 @@
+button {
+    background-color: #babc77;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #b2cd59;
+  }
+  .card-show{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  }
+  .card-show:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .card-show:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
