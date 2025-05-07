@@ -2,12 +2,14 @@ import { Component , OnInit } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { ApiService } from '../service/api.service';
 import { Router } from '@angular/router';
+import { ImageCardComponent } from '../image-card/image-card.component';
+
 
 
 @Component({
   selector: 'app-gallery',
   standalone: true,
-  imports: [],
+  imports: [ImageCardComponent],
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.css'
 })
@@ -52,7 +54,12 @@ export class GalleryComponent implements OnInit {
     viewImage(id:any){
       this.route.navigateByUrl(`viewImage/${id}`)
     }
-  
+    handleImageClick(productsId: number) {
+      console.log('Clicked Product ID:', productsId);
+      this.viewImage(productsId)
+      // Show modal, navigate, etc.
+      
+    }
   
 
 }

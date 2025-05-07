@@ -29,8 +29,8 @@
             </div>
         </div>
         <div class="col-9">
-            <div class="row">
-                @for (product of products ;track product.id){
+            <!-- <div class="row"> -->
+                <!-- @for (product of products ;track product.id){
                   <div class="col-md-4 mb-4">
                     <div class="card card-show h-100" (click)="viewImage(product.id)">
                       <img
@@ -44,9 +44,17 @@
                       </div>
                     </div>
                   </div>
-                }
-              </div>
+                } -->
+                
+                <app-image-card [receivedProducts]="products" 
+                (OnImgClick)="handleImageClick($event)"></app-image-card>
+                
+              <!-- </div> -->
+              
         </div>
     </div>
+
+    <!-- <app-image-card [receivedProducts]="products" 
+    (OnImgClick)="handleImageClick($event)"></app-image-card> -->
 
 </div>

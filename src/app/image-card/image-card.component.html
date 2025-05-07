@@ -1,0 +1,17 @@
+<div class="row">
+@for (products of receivedProducts ;track products.id){
+    <div class="col-md-4 mb-4">
+      <div class="card card-show h-100" (click)="onCardClick(products.id)">
+        <img
+          [src]="products.imageUrl"
+          class="card-img-top"
+          alt="Product Image"
+        />
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ products.title }}</h5>
+          <p class="card-text">{{ products.category }}</p>
+        </div>
+      </div>
+    </div>
+  }
+</div>
