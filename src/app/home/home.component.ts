@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { GalleryComponent } from '../gallery/gallery.component';
+
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink,GalleryComponent],
+  imports: [RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
