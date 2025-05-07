@@ -16,7 +16,7 @@ export class GalleryComponent implements OnInit {
     title = 'productfetching';
     products : any[]=[]// to hold all products
     category :any[]=[]// to hold all category 
-  
+    
     constructor(private api :ApiService, private route :Router){}
   
     ngOnInit(): void {
@@ -32,6 +32,7 @@ export class GalleryComponent implements OnInit {
           this.products.forEach((product:any)=>{
             !this.category.includes(product.category) && this.category.push(product.category)
           })
+          
           console.log(this.category)
         },
         error:(err:any)=>{
